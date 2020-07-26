@@ -13,7 +13,7 @@ Syntax highlighting for SFV files (see [Simple File Verification](https://www.wi
 
 ### apm
 
-Install `language-sfv` from Atom [install view](atom://settings-view/show-package?package=language-sfv)) or use the command-line equivalent:
+Install `language-sfv` from Atom [install view](atom://settings-view/show-package?package=language-sfv) or use the command-line equivalent:
 
 `$ apm install language-sfv`
 

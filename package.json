@@ -1,0 +1,35 @@
+{
+  "name": "language-sfv",
+  "version": "0.0.0",
+  "description": "Syntax highlighting for SFV files",
+  "private": false,
+  "scripts": {
+    "lint": "coffeelint grammars/*.cson",
+    "test": "npm run lint"
+  },
+  "keywords": [
+    "simple file verification",
+    "sfv"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idleberg/atom-language-sfv"
+  },
+  "homepage": "https://atom.io/packages/language-sfv",
+  "bugs": {
+    "url": "https://github.com/idleberg/atom-language-sfv/issues"
+  },
+  "license": "MIT OR GPL-2.0",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@coffeelint/cli": "^3.2.10"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  }
+}

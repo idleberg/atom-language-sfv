@@ -1,0 +1,16 @@
+fileTypes: [
+  "sfv"
+]
+name: "Simple File Verification"
+comment: "https://github.com/idleberg/atom-language-sfv"
+patterns: [
+  {
+    match: "^\\s*;.*$"
+    name: "comment.line.sfv"
+  }
+  {
+    match: "\\s+\\w{8}$"
+    name: "constant.other.sfv"
+  }
+]
+scopeName: "source.sfv"

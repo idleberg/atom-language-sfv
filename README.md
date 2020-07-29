@@ -7,7 +7,7 @@
 
 # Description
 
-Syntax highlighting for SFV files (see [Simple File Verification](https://www.wikiwand.com/en/Simple_file_verification))
+Syntax highlighting for SFV files (see [Simple File Verification](https://www.wikiwand.com/en/Simple_file_verification)). Also supports extended SFV files (`.sfvx`) as introduced by [`sfv-cli`](https://www.npmjs.com/package/sfv-cli).
 
 ## Installation
 
